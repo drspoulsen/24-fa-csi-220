@@ -1,4 +1,5 @@
-% Thank you Kyle Wilson, for the original lesson plan, which I have modified.
+
+[comment]: # Thank you Kyle Wilson, for the original lesson plan, which I have modified.
 
 # Instructions
 
