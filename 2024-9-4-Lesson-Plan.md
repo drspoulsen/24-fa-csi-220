@@ -1,6 +1,6 @@
 # Instructions
 
-Today we’re trying to get comfortable with pandas, a fantastically useful (but complicated) library
+Today we’re trying to get comfortable with `pandas`, a fantastically useful (but complicated) library
 for data science. We’ll frame this as a scavenger hunt. We’ll learn pandas by figuring out how to
 do successively more complicated things, and we’ll do it hands-on.
 
@@ -14,7 +14,7 @@ do successively more complicated things, and we’ll do it hands-on.
 # Questions
 
 Download the Mt. Washington weather data csv file from Canvas. (You can find it under Files->Mt_Washington.csv) Then figure out how to do each of the following:
-1. Import the package `pandas.`
+1. Import the package `pandas`.
 2. Load the csv file into a pandas dataframe.
 3. Print a list of all the column headings.
    - For each column heading, identify if the variable is a numeric variable or a categorical variable.
