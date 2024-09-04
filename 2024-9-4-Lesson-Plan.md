@@ -1,6 +1,3 @@
-
-[comment]: # Thank you Kyle Wilson, for the original lesson plan, which I have modified.
-
 # Instructions
 
 Today we’re trying to get comfortable with pandas, a fantastically useful (but complicated) library
@@ -32,3 +29,5 @@ Download the Mt. Washington weather data csv file from Canvas. (You can find it 
 no precipitation, and how many had precipitation but no snow.
 11. Simplify things. Drop all of the columns except for these: DATE, PRCP, SNOW, TMIN,
 TMAX.
+
+Thank you Kyle Wilson, for the original lesson plan, which I have modified.
