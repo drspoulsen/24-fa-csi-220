@@ -6,7 +6,7 @@
 
 * Go to the [Dear Data Website](https://www.dear-data.com/theproject) and examine some of the data visualizations these two information designers created. Gather data about yourself for a week and make a visualization in the style of the Dear Data Postcards. You can submit a portfolio item of this nature twice.
 
-* Participate in [TidyTuesday](https://github.com/rfordatascience/tidytuesday). Join the current week's submission, or create a submission for a past week. It is worth looking through other people's submissions to get a sense of what can be done! Usually, submissions are posted on the [Data Science Learning Community slack](dslc.io/join). You can submit a portfolio item of this nature three times.
+* Participate in [TidyTuesday](https://github.com/rfordatascience/tidytuesday). Join the current week's submission, or create a submission for a past week. For your post, you should write about the process you went through and the decisions you made. It is worth looking through other people's submissions to get a sense of what can be done! Usually, submissions are posted on the [Data Science Learning Community slack](dslc.io/join). You can submit a portfolio item of this nature three times.
 
 * Find an interesting data visualization in the news and recreate it. Describe the challenges in doing so, and what you had to learn. You can submit a portfolio item of this nature twice.
 
