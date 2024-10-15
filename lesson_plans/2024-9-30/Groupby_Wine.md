@@ -1,5 +1,7 @@
 # September 30, 2024
 
+*This is based off a Kaggle lesson for the groupby operation.*
+
 Often we want to group our data, and then do something specific to the group the data is in. We do this with the groupby operation.
 
 In these exercises we'll apply groupwise analysis to a dataset of 130,000 wine reviews from Wine Magazine.
