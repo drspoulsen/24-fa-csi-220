@@ -14,6 +14,8 @@
 
 * Create a user-friendly interactive visualization. Write about your design decisions and reflect on further improvements you could make. You can submit a portfolio item of this nature once.
 
+* Answer up to two of Daniel Litt's probability puzzles using simulation.
+
 * Finish the [Pokemon Pandas Activity](https://github.com/drspoulsen/csi-220-fa-24/blob/main/lesson_plans/2024-9-9/2024-9-9-Numpy.md) and write about what you learned in the process.
 
 * Finish the [Fat Bear Week Activity](https://github.com/drspoulsen/csi-220-fa-24/blob/main/lesson_plans/10-04-2024.md) and write about what you learned in the process.
