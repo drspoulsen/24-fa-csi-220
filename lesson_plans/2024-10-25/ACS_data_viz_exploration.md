@@ -3,7 +3,7 @@
 3. Run
    `import pandas as pd`
    `acs=pd.read_pickle('acs_cleaned.pickle')`
-4. I want to you explore relations using data visualization. You should aim for at least 6 good quality visualizations that span number of variables and variable types (one numerical, one categorical, two numerical, one numerical one categorical, two categorical, or something fancier, like three variables).
+4. I want to you explore relations using data visualization. You should aim for at least 6 good quality visualizations that span number of variables and variable types (one numerical, one categorical, two numerical, one numerical one categorical, two categorical, or something fancier, like three variables). High quality means that axes should be labeled, colors should be CVD (color vision deficiency) friendly, and scales should be clear and well-chosen.
 
 Please keep in mind that the cases we are working with in this dataset are people. 
 Any relationships you see in the data should not be taken as causal (correlation does not imply causation!). 
