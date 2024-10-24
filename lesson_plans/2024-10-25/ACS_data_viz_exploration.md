@@ -16,5 +16,5 @@ Some suggestions to get you started (don't just do these):
     * For the histograms, perhaps try to put both distributions on the same axes with transparency?
 * Visualize the counts of the variable age using a histogram. Are there any oddities in the data? What do you expect explains any oddities?
 * Visualize the counts of education level in the data set. Do you think this matches the distribution of "highest education achieved" in the country? If not, can you better approximate this distribution?
-* Make a side-by-side barplot of education level by marital status
-* 
+* Make a side-by-side barplot of education level by marital status.
+
