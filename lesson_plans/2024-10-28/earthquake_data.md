@@ -12,10 +12,13 @@ Some potential questions:
 
 If you want to alter which years are included in the dataset, you can modify the following code which does an API request to get the data:
 
-`import requests
-from io import StringIO
-import pandas as pd
-def getYearData(years):`
+`import requests`
+
+`from io import StringIO`
+
+`import pandas as pd`
+
+`def getYearData(years):`
 
     #Download earthquake data for the given years. years may be a range object. Return a dataframe.
 
