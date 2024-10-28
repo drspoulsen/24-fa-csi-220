@@ -12,14 +12,14 @@ Some potential questions:
 
 If you want to alter which years are included in the dataset, you can modify the following code which does an API request to get the data:
 
-`import requests
-from io import StringIO
-import pandas as pd
+`import requests`
+`from io import StringIO`
+`import pandas as pd`
 
-def getYearData(years):
-    """
-    Download earthquake data for the given years. years may be a range object. Return a dataframe.
-    """
+`def getYearData(years):`
+
+    #Download earthquake data for the given years. years may be a range object. Return a dataframe.
+
     url = 'https://earthquake.usgs.gov/fdsnws/event/1/query'
     
     dfs = []
@@ -59,5 +59,5 @@ def getYearData(years):
     df = pd.concat(dfs, ignore_index=True)
     return df
 
-df = getYearData(range(2000, 2004))
-print(len(df))`
+`df = getYearData(range(2000, 2004))`
+`print(len(df))`
