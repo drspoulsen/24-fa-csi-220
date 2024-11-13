@@ -33,5 +33,48 @@ In each row the first number is a `0` or `1` diagnosis code. The next 44 numbers
 
 8. Future work: how good is this model?
 
+____
+
+If you finish...
+
+9. Also load in the `spectf.test` data as `X_test` and `y_test`
+
+10. Write a function to evaluate your model. Be sure to compute all of these:
+- precision on the training set
+- recall on training set
+- precision on the test set
+- recall on the test set
+
+I encourage you to use the existing libraries for 
+[precision](https://scikit-learn.org/stable/modules/generated/sklearn.metrics.precision_score.html) 
+and [recall](https://scikit-learn.org/stable/modules/generated/sklearn.metrics.recall_score.html#sklearn.metrics.recall_score).
+
+11. You can also make a confusion matrix for your model on the test and training data.
+
+12. Finally, experiment with the weighting factor
+
+Background:
+
+Logistic regression models have an important parameter called `class_weight`. 
+
+**Theory:** Consider the following: 
+- Many machine learning datasets are unbalanced. There are more examples of one type of answer than another.
+- When the dataset is unbalanced the model will learn to be better at recognizing the bigger class.
+- There's a tradeoff: there will be less accuracy for the other classes.
+- Sometimes we want to prioritize one class over the others.
+
+**Code:** set the class weight with a dictionary, like this:
+`model = LogisticRegression(
+    class_weight={0: 1, 1:10}
+)`
+This example makes class `1` ten times as important as class `0`.
+
+Notice that although there's two weight numbers, the only thing that matters is
+the ratio between them.
+
+**TODO:** Run some experiments. How does performance change with different `class_weight` values? Describe your impressions here.
+
+**TODO:** make a graph of precision and recall as a function of `class_weight`. 
+Look below for some hints for making graphs. (The plot will be a little noisy. That's okay. The range of values is your choice.)
 
 
