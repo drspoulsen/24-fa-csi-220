@@ -14,15 +14,14 @@ In each row the first number is a `0` or `1` diagnosis code. The next 44 numbers
  
 5. Run this code to check your work. This code will run silently if your data importing is correct. If there are errors, don't go on until you fix them!
 
-`assert isinstance(X_train, np.ndarray)`
 
-`assert isinstance(y_train, np.ndarray)`
+    assert isinstance(X_train, np.ndarray)
+    assert isinstance(y_train, np.ndarray)
+    assert X_train.shape == (80, 44)
+    assert y_train.shape == (80,)
+   
 
-`assert X_train.shape == (80, 44)`
-
-`assert y_train.shape == (80,)`
-
-6. Fit a Logistic Regression model. Consider checking the 
+7. Fit a Logistic Regression model. Consider checking the 
 [docs](https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LogisticRegression.html).
 
 * create an object of type `LogisticRegression`
@@ -77,4 +76,18 @@ the ratio between them.
 **TODO:** make a graph of precision and recall as a function of `class_weight`. 
 Look below for some hints for making graphs. (The plot will be a little noisy. That's okay. The range of values is your choice.)
 
+### Hints about making graphs:
 
+Here's how to make simple graphs using `pyplot`. My example uses junk data for lists `x`, `y1`, and `y2`. If you use your own lists you should be able to tweak this example code from there.
+
+    import matplotlib.pyplot as plt
+
+    x = [1, 4, 7, 10, 15]
+    y1 = [-12, 6, 10, 9, 2]
+    y2 = [4, 8, 15, 3, -4]
+    fig = plt.figure(figsize=(6, 4)) # plot size, in inches
+    plt.plot(x, y1, '-k', label='y1') # - for lines, k for black
+    plt.plot(x, y2, '-b', label='y2') # - for lines, b for blue
+    plt.xlabel('x axis')
+    plt.ylabel('y axis')
+    plt.legend();
