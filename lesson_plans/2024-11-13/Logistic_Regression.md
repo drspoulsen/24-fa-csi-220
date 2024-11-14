@@ -14,11 +14,10 @@ In each row the first number is a `0` or `1` diagnosis code. The next 44 numbers
  
 5. Run this code to check your work. This code will run silently if your data importing is correct. If there are errors, don't go on until you fix them!
 
-    `assert isinstance(X_train, np.ndarray)
-    assert isinstance(y_train, np.ndarray)
-    assert X_train.shape == (80, 44)
-    assert y_train.shape == (80,)`
-   
+       assert isinstance(X_train, np.ndarray)
+       assert isinstance(y_train, np.ndarray)
+       assert X_train.shape == (80, 44)
+        assert y_train.shape == (80,)`
 
 8. Fit a Logistic Regression model. Consider checking the 
 [docs](https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LogisticRegression.html).
