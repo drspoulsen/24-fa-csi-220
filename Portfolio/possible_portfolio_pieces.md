@@ -18,7 +18,7 @@
 
 * Finish the [Pokemon Pandas Activity](https://github.com/drspoulsen/csi-220-fa-24/blob/main/lesson_plans/2024-9-9/2024-9-9-Numpy.md) and write about what you learned in the process.
 
-* Finish the [Fat Bear Week Activity](https://github.com/drspoulsen/csi-220-fa-24/blob/main/lesson_plans/10-4-2024.md) and write about what you learned in the process.
+* Finish the [Fat Bear Week Activity](https://github.com/drspoulsen/csi-220-fa-24/blob/main/lesson_plans/2024-10-4/Fat_Bear_Week.md) and write about what you learned in the process.
 
 * Finish the [Calculus Pre-test Activity]() and write about what you learned in the process.
 
